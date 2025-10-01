@@ -1,0 +1,25 @@
+{
+  "supabase": {
+    "endpoint_url": "https://xmngdcugklkgboeblmbf.storage.supabase.co/storage/v1/s3",
+    "region": "ca-central-1",
+    "bucket_name": "your-bucket-name",
+    "access_key_id": "your-supabase-s3-access-key",
+    "secret_access_key": "your-supabase-s3-secret-key"
+  },
+  "google_drive": {
+    "folder_id": null,
+    "query": null,
+    "max_file_size_mb": 100,
+    "page_size": 100
+  },
+  "sync": {
+    "batch_size": 10,
+    "delay_between_batches": 1,
+    "skip_existing": true,
+    "preserve_folder_structure": false
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "mcp_sync.log"
+  }
+}

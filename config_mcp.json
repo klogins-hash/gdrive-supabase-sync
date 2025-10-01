@@ -1,0 +1,25 @@
+{
+  "supabase": {
+    "endpoint_url": "https://xmngdcugklkgboeblmbf.storage.supabase.co/storage/v1/s3",
+    "region": "ca-central-1",
+    "bucket_name": "gdrive-sync",
+    "access_key_id": "a253f2a14b1ba22e4fcd316c5d70f408",
+    "secret_access_key": "958df48ac5364894e8dffb5629256850dc7dae8b7b884bc0cc7b7daf0172142a"
+  },
+  "google_drive": {
+    "folder_id": null,
+    "query": null,
+    "max_file_size_mb": 100,
+    "page_size": 50
+  },
+  "sync": {
+    "batch_size": 5,
+    "delay_between_batches": 2,
+    "skip_existing": true,
+    "preserve_folder_structure": false
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "mcp_sync.log"
+  }
+}
